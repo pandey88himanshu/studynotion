@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import connectToMongoDB from "./connection/database.mongodb";
+import errorHandler from "./middlewares/errorHandler.js";
 //requiring the dotenv config
 dotenv.config();
 //geting varibale from the dot env
@@ -19,12 +20,19 @@ const option = {
 //using cors
 app.use(cors(option));
 app.use(express.json());
-//getting homepage api
+app.use(errorHandler);
+//getting homepage, test Api
 app.get("/", (req, res) => {
   res.send("HEllo From Backend");
 });
 app.get("/test", (req, res) => {
   res.send("This is a testing Api");
+});
+//handfling the rount not found error
+app.use((req, res, next) => {
+  const error = new Error("Route Not Found");
+  error.statusCode = 404;
+  next(error);
 });
 //activating the server
 app.listen(port, () => {
