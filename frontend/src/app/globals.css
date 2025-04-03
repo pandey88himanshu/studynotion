@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Fonts */
+@layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+    --font-edu-sa: 'Edu SA Beginner', cursive;
+    --font-mono: 'Roboto Mono', monospace;
+  }
+}
+
+/* Custom Colors */
+@layer utilities {
+
+  /* Rich Black */
+  .text-richblack-900 {
+    color: #000814;
+  }
+
+  .bg-richblack-900 {
+    background-color: #000814;
+  }
+
+  .text-richblack-800 {
+    color: #161D29;
+  }
+
+  .bg-richblack-800 {
+    background-color: #161D29;
+  }
+
+  .text-richblack-700 {
+    color: #2C333F;
+  }
+
+  .bg-richblack-700 {
+    background-color: #2C333F;
+  }
+
+  /* Rich Blue */
+  .text-richblue-900 {
+    color: #001B22;
+  }
+
+  .bg-richblue-900 {
+    background-color: #001B22;
+  }
+
+  .text-richblue-500 {
+    color: #063544;
+  }
+
+  .bg-richblue-500 {
+    background-color: #063544;
+  }
+
+  /* Caribbean Green */
+  .text-caribbeangreen-200 {
+    color: #05BF8E;
+  }
+
+  .bg-caribbeangreen-200 {
+    background-color: #05BF8E;
+  }
+
+  .text-caribbeangreen-500 {
+    color: #037957;
+  }
+
+  .bg-caribbeangreen-500 {
+    background-color: #037957;
+  }
+
+  /* Brown */
+  .text-brown-100 {
+    color: #E7BC5B;
+  }
+
+  .bg-brown-100 {
+    background-color: #E7BC5B;
+  }
+
+  .text-brown-500 {
+    color: #88662D;
+  }
+
+  .bg-brown-500 {
+    background-color: #88662D;
+  }
+
+  /* Pink */
+  .text-pink-100 {
+    color: #F37290;
+  }
+
+  .bg-pink-100 {
+    background-color: #F37290;
+  }
+
+  .text-pink-500 {
+    color: #9F294A;
+  }
+
+  .bg-pink-500 {
+    background-color: #9F294A;
+  }
+
+  /* Yellow */
+  .text-yellow-100 {
+    color: #E7C009;
+  }
+
+  .bg-yellow-100 {
+    background-color: #E7C009;
+  }
+
+  .text-yellow-500 {
+    color: #866A04;
+  }
+
+  .bg-yellow-500 {
+    background-color: #866A04;
+  }
+
+  /* Greys */
+  .text-pure-greys-300 {
+    color: #888888;
+  }
+
+  .bg-pure-greys-300 {
+    background-color: #888888;
+  }
+
+  .text-pure-greys-900 {
+    color: #141414;
+  }
+
+  .bg-pure-greys-900 {
+    background-color: #141414;
+  }
+}
+
+/* Custom Max Widths */
+@layer utilities {
+  .max-w-maxContent {
+    max-width: 1260px;
+  }
+
+  .max-w-maxContentTab {
+    max-width: 650px;
+  }
+}
