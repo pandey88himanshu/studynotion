@@ -1,11 +1,13 @@
 //importing the requirements
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
-import connectToMongoDB from "./connection/database.mongodb";
+import cookieParser from "cookie-parser";
+import { configDotenv } from "dotenv";
+import connectToMongoDB from "./connection/database.mongodb.js";
 import errorHandler from "./middlewares/errorHandler.js";
+import studentRouter from "./routes/student.routes.js";
 //requiring the dotenv config
-dotenv.config();
+configDotenv();
 //geting varibale from the dot env
 const port = process.env.PORT;
 // creating the instance of express
@@ -21,6 +23,9 @@ const option = {
 app.use(cors(option));
 app.use(express.json());
 app.use(errorHandler);
+app.use(cookieParser());
+//routes
+app.use("/api/student", studentRouter);
 //getting homepage, test Api
 app.get("/", (req, res) => {
   res.send("HEllo From Backend");
