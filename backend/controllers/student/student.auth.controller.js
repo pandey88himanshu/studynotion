@@ -1,7 +1,7 @@
 import redis from "../../connection/redis.connection.js";
 import Student from "../../models/student.model.js";
 import sendOTP from "../../utils/mailer.utlis.js";
-import { generateTokens, verifyRefreshToken } from "../../utils/token.js";
+import { generateTokens } from "../../utils/token.js";
 import jwt from "jsonwebtoken";
 // ✅ Registration - Sends OTP
 export const studentRegistration = async (req, res, next) => {
