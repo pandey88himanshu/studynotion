@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Outfit";
+body {
+  font-family: "Outfit", sans-serif;
 }
 
 /* styles/globals.css */
@@ -27,4 +24,8 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #1e2229;
+}
+
+.custom-container {
+  @apply max-w-[1280px] w-full mx-auto px-5;
 }
