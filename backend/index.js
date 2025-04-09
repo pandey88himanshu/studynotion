@@ -14,7 +14,7 @@ const port = process.env.PORT;
 const app = express();
 //option for cors
 const option = {
-  origin: "*",
+  origin: process.env.FRONTEND_URL,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   preflightContinue: false,
   optionsSuccessStatus: 204,
