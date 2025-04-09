@@ -1,4 +1,4 @@
-import StudentRegister from "@/components/auth/StudentRegister";
+import StudentRegister from "@/components/auth-student/StudentRegister";
 import AnnouncementHeadline from "@/components/shared/AnnouncementHeadline";
 import NavBar from "@/components/shared/NavBar";
 import React from "react";

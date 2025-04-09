@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-const ImageComponent = () => {
+const ImageComponent = ({ name }) => {
   return (
-    <div>
-      <div className='absolute right-36 top-36'>
+    <figure>
+      <div className='absolute right-40 top-40'>
         <Image
-          src={"/assets/Images/signup.webp"}
+          src={`/assets/Images/${name}`}
           alt='fram-image'
           width={558}
           height={504}
@@ -20,7 +20,7 @@ const ImageComponent = () => {
           height={504}
         />
       </div>
-    </div>
+    </figure>
   );
 };
 
