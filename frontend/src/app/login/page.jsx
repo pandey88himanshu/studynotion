@@ -1,4 +1,4 @@
-import StudentRegister from "@/components/auth-student/register/StudentRegister";
+import StudentLogin from "@/components/auth-student/login/StudentLogin";
 import AnnouncementHeadline from "@/components/shared/AnnouncementHeadline";
 import NavBar from "@/components/shared/NavBar";
 import React from "react";
@@ -8,7 +8,7 @@ const page = () => {
     <div>
       <AnnouncementHeadline />
       <NavBar />
-      <StudentRegister />
+      <StudentLogin />
     </div>
   );
 };
