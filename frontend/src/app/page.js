@@ -4,13 +4,7 @@ import NavBar from "@/components/shared/NavBar";
 import React from "react";
 
 const page = () => {
-  return (
-    <div>
-      <AnnouncementHeadline />
-      <NavBar />
-      <StudentRegister />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default page;
