@@ -8,7 +8,7 @@ const RegisterText = () => {
       </h2>
       <p className='text-lg pt-3'>
         Build skills for today, tomorrow, and beyond.{" "}
-        <span className='text-[#47A5C5]  font-bold'>
+        <span className='text-[#47A5C5]  font-bold '>
           Education to future-proof your career.
         </span>
       </p>
