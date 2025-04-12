@@ -1,11 +1,11 @@
-import StudentLogin from "@/components/auth-student/login/StudentLogin";
+import StudentRegister from "@/components/auth-student/register/StudentRegister";
 
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <StudentLogin />
+      <StudentRegister />
     </div>
   );
 };
