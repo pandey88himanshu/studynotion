@@ -1,10 +1,14 @@
-import StudentRegister from "@/components/auth-student/register/StudentRegister";
-import AnnouncementHeadline from "@/components/shared/AnnouncementHeadline";
-import NavBar from "@/components/shared/NavBar";
+import HeroText from "@/components/home/HeroText";
 import React from "react";
 
 const page = () => {
-  return <div></div>;
+  return (
+    <section className='bg-[#000814]  w-full  flex items-center justify-center'>
+      <div className='custom-container'>
+        <HeroText />
+      </div>
+    </section>
+  );
 };
 
 export default page;

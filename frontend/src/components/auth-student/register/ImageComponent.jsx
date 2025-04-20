@@ -3,8 +3,8 @@ import React from "react";
 
 const ImageComponent = ({ name }) => {
   return (
-    <figure>
-      <div className='absolute right-40 top-40'>
+    <figure className='hidden lg:block'>
+      <div className='absolute right-[10rem] top-[10rem] z-10'>
         <Image
           src={`/assets/Images/${name}`}
           alt='fram-image'
@@ -12,7 +12,7 @@ const ImageComponent = ({ name }) => {
           height={504}
         />
       </div>
-      <div>
+      <div className='absolute right-36 top-44 '>
         <Image
           src={"/assets/Images/frame.png"}
           alt='fram-image'

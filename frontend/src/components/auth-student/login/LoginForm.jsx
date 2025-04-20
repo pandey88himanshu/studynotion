@@ -19,7 +19,7 @@ const LoginForm = () => {
         <label htmlFor='' className='flex items-start'>
           Email{" "}
           <sup>
-            <FaStarOfLife className='text-[#EF476F] text-sm' />
+            <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
           </sup>
         </label>
         <input
@@ -33,7 +33,7 @@ const LoginForm = () => {
         <label htmlFor='' className='flex items-start'>
           Password{" "}
           <sup>
-            <FaStarOfLife className='text-[#EF476F] text-sm' />
+            <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
           </sup>
         </label>
         <input

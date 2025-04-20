@@ -22,7 +22,7 @@ const RegistrationForm = () => {
           <label htmlFor='' className='flex items-start'>
             First Name{" "}
             <sup>
-              <FaStarOfLife className='text-[#EF476F] text-sm' />
+              <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
             </sup>
           </label>
           <input
@@ -36,7 +36,7 @@ const RegistrationForm = () => {
           <label htmlFor='' className='flex items-start'>
             Last Name{" "}
             <sup>
-              <FaStarOfLife className='text-[#EF476F] text-sm' />
+              <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
             </sup>
           </label>
           <input
@@ -51,7 +51,7 @@ const RegistrationForm = () => {
         <label htmlFor='' className='flex items-start'>
           Email{" "}
           <sup>
-            <FaStarOfLife className='text-[#EF476F] text-sm' />
+            <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
           </sup>
         </label>
         <input
@@ -65,7 +65,7 @@ const RegistrationForm = () => {
         <label htmlFor='' className='flex items-start'>
           Phone Number{" "}
           <sup>
-            <FaStarOfLife className='text-[#EF476F] text-sm' />
+            <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
           </sup>
         </label>
         <input
@@ -81,7 +81,7 @@ const RegistrationForm = () => {
           <label htmlFor='' className='flex items-start'>
             Password{" "}
             <sup>
-              <FaStarOfLife className='text-[#EF476F] text-sm' />
+              <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
             </sup>
           </label>
           <input
@@ -95,7 +95,7 @@ const RegistrationForm = () => {
           <label htmlFor='' className='flex items-start'>
             Confirm Password{" "}
             <sup>
-              <FaStarOfLife className='text-[#EF476F] text-sm' />
+              <FaStarOfLife className='text-[#EF476F] text-[8px] ml-1.5 mt-1' />
             </sup>
           </label>
           <input
