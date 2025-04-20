@@ -8,7 +8,7 @@ const StudentRegister = () => {
   return (
     <section className='bg-[#121212] text-white w-full min-h-[100vh] '>
       <div className='custom-container text-[#AFB2BF] flex items-start justify-between py-[66px]'>
-        <div className='w-508px '>
+        <div className='lg:w-[508px] w-full '>
           <RegisterText />
           <SwitchTabs />
           <RegistrationForm />
