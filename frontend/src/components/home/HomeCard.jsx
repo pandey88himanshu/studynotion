@@ -1,23 +1,21 @@
+// HomeCard.jsx
 import React from "react";
 import { FaUserGroup } from "react-icons/fa6";
 import { TbBinaryTree2Filled } from "react-icons/tb";
 
-const HomeCard = () => {
+const HomeCard = ({ title, description, level, lessons }) => {
   return (
-    <div className='w-[21.375rem] h-[18.75rem] bg-[#161D29] px-[1.5rem]'>
-      <div className='py-[2rem] pb-[1.25rem] h-[14rem] text-[#6E727F]'>
-        <h3 className='text-xl font-semibold text-[#DBDDEA]'>Learn HTML</h3>
-        <p className='pt-[0.75rem]'>
-          This course covers the basic concepts of HTML including creating and
-          structuring web pages, adding text, links, images, and more.
-        </p>
+    <div className='w-[342px] h-[300px] bg-white shadow-[12px_12px_0_0_#ffd60a] px-6'>
+      <div className='py-8 pb-5 h-[224px] text-[#585D69]'>
+        <h3 className='text-xl font-semibold text-[#161D29]'>{title}</h3>
+        <p className='pt-3'>{description}</p>
       </div>
-      <div className='flex items-center justify-between text-[#838894]'>
-        <div className='flex items-center justify-center gap-[0.5rem]'>
-          <FaUserGroup /> <p>Beginner</p>
+      <div className='flex items-center justify-between text-[#0A5A72]'>
+        <div className='flex items-center gap-2'>
+          <FaUserGroup /> <p>{level}</p>
         </div>
-        <div className='flex items-center justify-center gap-[0.5rem]'>
-          <TbBinaryTree2Filled /> <p>6 Lessons</p>
+        <div className='flex items-center gap-2'>
+          <TbBinaryTree2Filled /> <p>{lessons} Lessons</p>
         </div>
       </div>
     </div>
