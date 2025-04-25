@@ -3,9 +3,9 @@ import React from "react";
 
 const HeroVideo = () => {
   return (
-    <div className='mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-200'>
+    <div className='mx-[0.75rem] my-[1.75rem] shadow-[0.625rem_-0.3125rem_3.125rem_-0.3125rem] shadow-blue-200'>
       <video
-        className='shadow-[20px_20px_rgba(255,255,255)]'
+        className='shadow-[1.25rem_1.25rem_rgba(255,255,255)]'
         muted
         loop
         autoPlay>
