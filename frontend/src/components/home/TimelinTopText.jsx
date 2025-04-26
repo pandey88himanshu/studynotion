@@ -3,7 +3,7 @@ import HighlitedText from "./HighlitedText";
 
 const TimelinTopText = () => {
   return (
-    <div className='w-full text-[#AFB2BF] flex flex-col lg:flex-row items-start justify-between gap-6'>
+    <div className='w-full text-[#AFB2BF] flex flex-col lg:flex-row items-start justify-between gap-6 pt-[5.625rem]'>
       <div className='lg:w-[60%]'>
         <h2 className='text-3xl lg:text-4xl font-semibold text-[#000814] leading-snug'>
           Get the skills you need for a{" "}

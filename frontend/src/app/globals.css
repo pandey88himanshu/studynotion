@@ -29,3 +29,11 @@ body {
 .custom-container {
   @apply max-w-[1280px] w-full mx-auto px-5;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

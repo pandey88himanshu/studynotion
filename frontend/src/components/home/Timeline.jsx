@@ -21,21 +21,21 @@ const Timeline = () => {
         title='Leadership'
         description='Fully committed to the success of the company'
       />
-      <div className='border-l-2 border-dotted border-[#AFB2BF] h-[2.5rem] ml-[1.75rem]'></div>
+      <div className='border-l-2 border-dotted border-[#AFB2BF] h-[2.5rem] ml-[1.75rem] mb-3'></div>
 
       <TimelineItem
         logoSrc='/assets/TimeLineLogo/Logo2.svg'
         title='Responsibility'
         description='Students will always be our top priority'
       />
-      <div className='border-l-2 border-dotted border-[#AFB2BF] h-[2.5rem] ml-[1.75rem]'></div>
+      <div className='border-l-2 border-dotted border-[#AFB2BF] h-[2.5rem] ml-[1.75rem] mb-3'></div>
 
       <TimelineItem
         logoSrc='/assets/TimeLineLogo/Logo3.svg'
         title='Flexibility'
         description='The ability to switch is an important skill'
       />
-      <div className='border-l-2 border-dotted border-[#AFB2BF] h-[2.5rem] ml-[1.75rem]'></div>
+      <div className='border-l-2 border-dotted border-[#AFB2BF] h-[2.5rem] ml-[1.75rem] mb-3'></div>
 
       <TimelineItem
         logoSrc='/assets/TimeLineLogo/Logo4.svg'
