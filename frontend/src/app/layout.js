@@ -12,7 +12,13 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     // Define routes where NavBar shouldn't be shown
-    const hideNavRoutes = ["/login", "/register"];
+    const hideNavRoutes = [
+      "/student/login",
+      "/student/register",
+      "/student/otp",
+      "/instructor/register",
+      "/instructor/login",
+    ];
     setShowNav(!hideNavRoutes.includes(pathname));
   }, [pathname]);
 

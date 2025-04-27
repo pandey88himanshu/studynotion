@@ -1,5 +1,5 @@
 import React from "react";
-import ImageComponent from "../register/ImageComponent";
+import ImageComponent from "../../shared/ImageComponent";
 import LoginText from "./LoginText";
 import SwitchTabs from "@/components/shared/SwitchTabs";
 import LoginForm from "./LoginForm";

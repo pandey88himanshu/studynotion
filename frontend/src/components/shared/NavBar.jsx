@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -8,13 +8,22 @@ import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 
 const NavBar = ({ login }) => {
   const router = useRouter();
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleClick = () => {
     if (login) {
-      router.push("/register");
+      if (pathname === "/student/login") {
+        router.push("/student/register");
+      } else {
+        router.push("/instructor/register");
+      }
     } else {
-      router.push("/login");
+      if (pathname === "/student/register") {
+        router.push("/student/login");
+      } else {
+        router.push("/instructor/login");
+      }
     }
   };
 
