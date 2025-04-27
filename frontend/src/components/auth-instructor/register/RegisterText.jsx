@@ -4,13 +4,11 @@ const RegisterText = () => {
   return (
     <div className='max-w-[31.25rem]'>
       <h2 className='text-3xl font-semibold text-[#F1F2FF]'>
-        Join the millions learning to code with StudyNotion for free
+        Become an instructor with StudyNotion for free
       </h2>
       <p className='text-lg text-[#999DAA] pt-3'>
-        Build skills for today, tomorrow, and beyond.{" "}
-        <span className='text-[#47A5C5] font-bold'>
-          Education to future-proof your career.
-        </span>
+        Discover your passions,{" "}
+        <span className='text-[#47A5C5] font-bold'>Be Unstoppable</span>
       </p>
     </div>
   );

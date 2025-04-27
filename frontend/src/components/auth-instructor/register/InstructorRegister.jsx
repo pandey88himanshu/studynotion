@@ -3,8 +3,7 @@ import RegisterText from "./RegisterText";
 import SwitchTabs from "../../shared/SwitchTabs";
 import RegistrationForm from "./RegistrationForm";
 import ImageComponent from "../../shared/ImageComponent";
-
-const StudentRegister = () => {
+const InstructorRegister = () => {
   return (
     <section className='bg-[#121212] text-white w-full min-h-[100vh] '>
       <div className='custom-container text-[#AFB2BF] flex items-start justify-between py-[66px]'>
@@ -14,11 +13,11 @@ const StudentRegister = () => {
           <RegistrationForm />
         </div>
         <div>
-          <ImageComponent name={"signup.webp"} />
+          <ImageComponent name={"instructor-register.webp"} />
         </div>
       </div>
     </section>
   );
 };
 
-export default StudentRegister;
+export default InstructorRegister;
